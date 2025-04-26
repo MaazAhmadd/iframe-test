@@ -9,7 +9,7 @@ function cn(...inputs: ClassValue[]) {
 }
 const drive = new URL("https://drive.google.com/file/d/1UsJBz1zEU4N6GlywD6wWW6V3YyemD7tV/preview")
 drive.searchParams.set("t", "1")
-drive.searchParams.set("autoplay", "1")
+// drive.searchParams.set("autoplay", "1")
 function App() {
   const btnClass = "h-9 cursor-pointer rounded-md bg-amber-400 px-4 py-2 text-amber-900 shadow hover:bg-amber-400/90"
   const [startFrom, setStartFrom] = useState(0);
